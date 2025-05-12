@@ -1,2 +1,4 @@
-# RECONSTRUINDO_YOUTUBE
+# RECONSTRUINDO O YOUTUBE
 Aplicando conceitos
+
+Git & GitHub
