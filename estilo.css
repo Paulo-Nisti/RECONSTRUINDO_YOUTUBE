@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+body{
+    border: 0;
+    margin: 0;
+    background-color: #0d0d0d;
+}
+
+.topo{
+    display: flex;
+    width: 100%;
+    height: 56px;
+    background-color: #181818;
+}
+
+.topo--container--1{
+    background-color: #181818;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.menu--icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+    }
+
+.menu--logo{
+    margin-left: 40px;
+    width: 100.91px;
+    height: 22.381px;
+    cursor: pointer;
+}
+
+.topo--container--2{
+    display: flex;
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.campo--pesquisa{
+    /* width: 714px; */
+    width: 300px;
+    height: 38px;
+    border-top-left-radius:45px;
+    border-bottom-left-radius: 45px;
+    border: 1px solid #2a2a2a;
+    outline: 0;
+    background-color: #0f0f0f;
+    color: white;
+    padding-left: 10px;
+}
+
+.botao--pesquisa{
+    height: 38px;
+    width: 78px;
+    border: 0;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    outline: 0;
+    background-color: #2a2a2a;
+}
+.icone--botao--pesquisa{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.botao--microfone{
+    width: 38px;
+    height: 38px;
+    border: 0;
+    outline: 0;
+    background-color: #2a2a2a;
+    border-radius: 50%;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+
+.topo--container--3{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 34px;
+}
+
+.avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.icone--container--3{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    
+}
+nav{
+    width: 88px;
+    height: 309px;
+    background-color: #0f0f0f;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.botao--menu{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nome--botao{
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+.banner{
+    width: 100%;
+    background-image: url("assets/images/banner.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.meio--container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.meio{
+    width: 900px;
+    margin-top: 25px;
+    
+
+}
+.infos--canal{
+    height: 148px;
+    display: flex;
+}
+.infos--canal--1{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar--canal{
+    width: 128px;
+    height: 128px;
+    background-color: brown;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nome--canal--container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-left: 16px;
+}
+
+.nome--canal{
+    color: #fff;
+    font-family: Roboto; 
+    font-size: 30.375px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.numero--inscritos{
+    color: #888;
+    font-family: Roboto;
+    font-size: 17.585px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -10px;
+}
+.nome--e--icone{
+    display: flex;
+    flex-direction: row;
+}
+
+.infos--canal--2{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.subscribers{
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 65px;
+    background: #fff;
+    font-family: Roboto;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.menu--container{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.menu--item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    color: #8f8f8f;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.menu--item--selecionado{
+    color: white;
+    border-bottom: 2px solid #9a9a9a;
+}
+
+.lupa--menu{
+    width: 23px;
+}
+
+.trailer--container{
+    display: flex;
+    height: 118px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.trailer--1{
+    display: flex;
+    flex: 1;
+    
+
+}
+
+.trailer--2{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+       
+}
+
+.video{
+    width: 210px;
+    height: 118px;
+    background-color: #912df5;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nome--video{
+    font-weight:500;
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    cursor: pointer;
+}
+
+.infos--video{
+    color: #8f8f8f;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 6px;
+}
+
+.descricao--video{
+    color: #efefef;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 1px;
+    
+}
+
+.link--descricao{
+    color: #223aa1;
+    }
+
+
+
+.sessao--videos{
+    display: flex;
+    flex-direction: column;
+    height: 251px;
+    margin-top: 30px;
+}
+
+.icon--play{
+    height: 16px;
+    width: 16px;
+    margin-left: 78px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.play--all{
+    color: #9a9a9a;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.video--container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 24px;
+
+}
+
+.infos--sessao{
+    display: flex;
+    flex-direction: row;
+}
+
+.nome--video--sessao{
+    font-size: 17px;
+    margin-top: 16px;
+}
+.nome--sessao--canal{
+    margin: 0;
+    color: #9a9a9a;
+    font-family: Roboto;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.check--icon{
+    margin-left: 5px;
+    width: 16px;
+    height: 16px;
+}
+.dados--canal{
+    display: flex;
+    flex-direction: row;
+}
+
+.sessao--todos{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
